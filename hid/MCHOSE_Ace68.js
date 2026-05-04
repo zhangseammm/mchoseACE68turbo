@@ -31,16 +31,17 @@ const vKeyNames = [
 ];
 
 const vKeys = [
-    // row 0: Esc 1 2 3 4 5 6 7 8 9 0 -_ =+ Bksp ~
+    // row 0: Esc 1 2 3 4 5 6 7  8 9 0 -_ =+ Bksp ~
      0, 10, 20, 30, 40, 50, 60, 70,  1, 11, 21, 31, 41, 51, 71,
-    // row 1: Tab Q W E R T Y U I O P [ ] \ Del
-     2, 12, 22, 32, 42, 52, 62, 72,  3, 13, 23, 33, 43, 53, 73,
-    // row 2: Caps A S D F G H J K L ; ' Enter PgUp
-     4, 14, 24, 34, 44, 54, 64, 74,  5, 15, 25, 35, 45, 75,
-    // row 3: LShift Z X C V B N M , . / RShift Up PgDn
-     6, 26, 36, 46, 56, 66, 76,  7, 17, 27, 37, 47, 67, 77,
-    // row 4: LCtrl LWin LAlt Space RAlt Fn RCtrl LArrow DArrow RArrow + Space x4
-     8, 18, 28, 38, 29, 39, 49, 59, 69, 79,
+    // row 1: Tab Q W E R T Y U  I O P [ ] \ Del
+     2, 12, 22, 32, 42, 52, 62, 72,  3, 13, 23, 33, 43, 53, 63,
+    // row 2: Caps A S D F G H J  K L ; ' Enter PgUp
+     4, 14, 24, 34, 44, 54, 64, 74,  5, 15, 25, 35, 45, 55,
+    // row 3: LShift Z X C V B N  M , . / RShift Up PgDn
+     6, 26, 36, 46, 56, 66, 76,  7, 17, 27, 37, 47, 57, 65,
+    // row 4: LCtrl LWin LAlt Space  RAlt Fn RCtrl LArrow DArrow RArrow
+     8, 18, 28, 38, 48, 58, 68, 78, 67, 77,
+    // Space extra LEDs
     82, 83, 84, 85
 ];
 
